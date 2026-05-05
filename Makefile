@@ -33,7 +33,7 @@ else
 endif
 
 e2e: 
-	./tests/run_e2e_test.sh 
+	./tests/run_e2e_tests.sh 
 
 test :
 	go test -race -timeout 20m -v ./...
